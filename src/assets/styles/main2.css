@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.box-item {
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    border: 1px solid black;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+img {
+    display: block;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+}
+
+.header img {
+    margin: 0;
+    margin-right: 50px;
+}
+
+.header-description {
+    color: grey;
+}
+
+.header-description h1 {
+    margin: 20px 0 0px 0;
+    color: rgb(63, 63, 63);
+}
+.header-description p {
+    margin: 0;
+}
+
+@media screen and (max-width: 500px) {
+    .header {
+        display: flex;
+        flex-direction: column;
+    }
+    .header img {
+        margin: 0;
+    }
+}
+
+
+.content {
+    max-width: 1000px;
+    background-color: rgb(243, 243, 243);
+    margin: 0 auto;
+    padding: 5px 15px;
+}
+
+.card-view {
+    border-radius: 30px;
+    padding: 5px 15px 15px 15px;
+    margin-bottom: 20px;
+}
+
+.card-view ul {
+    list-style: none;
+    padding: 0;
+    
+}
+
+.card-view ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.card-view ul li a:visited {
+    text-decoration: none;
+    color: grey;
+}
+
+input {
+    margin: 5px 0 10px 10px;
+    border-width: 0;
+    border-style: none;
+    background-color: transparent;
+    border-bottom: 1px solid #ccccff;
+    font-family: "Roboto", sans-serif;
+  }
+  .text {
+    display: flex;
+    flex-direction: column;
+  }
+    
+
+input[type="button"] {
+    border-width: 2px;
+    border-style: solid;
+    border-color: #CCCCFF;
+    border-radius: 5px;
+}
+
+input[type="button"]:hover {
+    border-width: 3px;
+    border-style: solid;
+    border-color: #CCCCFF;
+    border-radius: 5px;
+    background-color: #CCCCFF;
+}
+
+input[type="button"]:active {
+    border-width: 0px;
+    border-style: none;
+    border-color: #CCCCFF;
+    border-radius: 0px;
+    background-color: transparent;
+    
+}
+input[type="reset"] {
+    border-width: 2px;
+    border-style: solid;
+    border-color: #CCCCFF;
+    border-radius: 5px;
+}
+input[type="reset"]:hover {
+    border-width: 3px;
+    border-style: solid;
+    border-color: #CCCCFF;
+    border-radius: 5px;
+    background-color: #CCCCFF;
+}
+input[type="reset"]:active {
+    border-width: 0px;
+    border-style: none;
+    border-color: #CCCCFF;
+    border-radius: 0px;
+    background-color: transparent;
+}
+input:focus {
+    outline: none;
+}
+
+.red-back {
+    background-color: rgb(255, 216, 216);
+}
+
+.green-back {
+    background-color: rgb(216, 255, 216);
+}
+
+.yellow-back {
+    background-color: rgb(255, 255, 216);
+}
